@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;0,800;0,900;1,600&display=swap');
+
+#gameContainer {
+    text-align: center;
+}
+
+#gameBoard{
+    border: 3px solid;
+}
+
+#scoreText {
+    font-family: 'Montserrat', sans-serif;
+    font-size:100px;
+    font-weight:500;
+}
+
+#resetBtn {
+    font-family: 'Montserrat', sans-serif;
+    font-size:32px;
+    font-weight:300;
+    width:100px;
+    height:50px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
