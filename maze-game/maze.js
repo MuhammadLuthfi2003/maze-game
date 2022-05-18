@@ -112,7 +112,6 @@ resetBtn.addEventListener('click', resetGame);
 // (( player.y + unitSize) >= walls[i].y))
 
 // special functions
-// fix thiscollision thing that i dont understand
 const detectCollisionX = () => {
     let res = [];
 
@@ -302,7 +301,6 @@ function movePlayer(event) {
         break;
     }
  
-    console.log(player.x, player.y);   
 }
 
 
